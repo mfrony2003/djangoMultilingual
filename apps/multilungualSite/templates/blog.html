@@ -1,0 +1,49 @@
+
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-12 entries">
+{% for blog in Blogs %}
+{% if blog.title %}
+            <article class="entry">
+
+              
+              <h2 class="entry-title">
+                <a href="#">{%trans blog.title %} </a>
+              </h2>
+
+             
+
+              <div class="entry-content">
+                <p>
+                {%trans blog.content %}
+              
+                </p>
+                <div class="read-more">
+                  <a href="blog-single.html">{%trans 'Read More' %}</a>
+                </div>
+              </div>
+
+            </article><!-- End blog entry -->         
+            {% endif %}
+{% endfor %}
+
+           
+
+          </div><!-- End blog entries list -->
+
+
+        </div>
+
+      </div>
+    </section><!-- End Blog Section -->
+    {% endblock %}
+
+ 
