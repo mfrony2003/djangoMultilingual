@@ -23,6 +23,11 @@ RUN
 ```bash
 $ python manage.py runserver
 ```
+![es_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/aeed8596-7dd7-47e9-b21e-ebc4dcd74637)
+
+![fr_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/ff579165-10f1-4814-bc89-0e2f4e9f7f09)
+
+![eng_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/be72c3aa-c865-49fc-9fa6-3154a38fa54e)
 
 ## DB Info
  url : http://localhost:8000/admin
@@ -32,6 +37,8 @@ $ python manage.py runserver
  ## Change the Static text copy the below url to the browser
    http://localhost:8000/rosetta
 
-   ![static_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/cc17c14b-5f29-47e5-aad4-4af2d00e39f3)
+![dynamic_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/165adea5-5f06-489a-9aad-3f2bdd9ff49f)
+   
+![static_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/3cf8e36c-8b34-4e9d-a65e-5664b119a073)
    
 
