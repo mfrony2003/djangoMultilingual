@@ -32,3 +32,6 @@ $ python manage.py runserver
  ## Change the Static text copy the below url to the browser
    http://localhost:8000/rosetta
 
+   ![static_text](https://github.com/mfrony2003/djangoMultilingual/assets/26355258/cc17c14b-5f29-47e5-aad4-4af2d00e39f3)
+   
+
