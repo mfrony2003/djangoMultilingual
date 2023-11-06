@@ -17,7 +17,7 @@ Create virtual Environment and install the requried packages
 ```bash
 py -m venv venv
 venv\Scripts\activate.bat
-pip install -r requirements.txt
+pip install -r requriment.txt
 ```
 RUN
 ```bash
