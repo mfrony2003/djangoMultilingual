@@ -22,6 +22,13 @@ pip install -r requirements.txt
 RUN
 ```bash
 $ python manage.py runserver
-
 ```
+
+## DB Info
+ url : http://localhost:8000/admin
+ user :faisal
+ pwd:test@123
+ 
+ ## Change the Static text copy the below url to the browser
+   http://localhost:8000/rosetta
 
